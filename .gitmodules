@@ -1,0 +1,3 @@
+[submodule "victionchain"]
+	path = victionchain
+	url = https://github.com/endale98/victionchain.git
