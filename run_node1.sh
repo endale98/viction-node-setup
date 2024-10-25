@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set variables
-TOMO_BINARY="./tomochain/build/bin/tomo"
+TOMO_BINARY="./victionchain/build/bin/tomo"
 DATA_DIR="nodes/runners/1"
 KEYSTORE_DIR="nodes/keystore/1"
 PASSWORD_FILE="password.txt"
