@@ -31,9 +31,9 @@ $TOMO_BINARY --syncmode "full" \
   --wsaddr "0.0.0.0" \
   --wsport 3546 \
   --wsorigins "*" \
-  --unlock "$UNLOCK_ADDRESS" \
+  --unlock "0x$UNLOCK_ADDRESS" \
   --identity "$NODE_IDENTITY" \
   --mine \
   --gasprice 2500 \
   --bootnodesv5 "$BOOTNODE_URL" \
-  console
+  --verbosity 4

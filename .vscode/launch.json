@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+        
+      {
+        "name": "Attach to Delve",
+        "type": "go",
+        "request": "attach",
+        "mode": "remote",
+        "remotePath": "", // Để trống nếu debug local
+        "port": 1345,
+        "host": "127.0.0.1",
+        "apiVersion": 2,
+      }
+    ]
+  }
